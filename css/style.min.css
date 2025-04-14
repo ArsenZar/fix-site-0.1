@@ -684,6 +684,35 @@ body.admin-bar .topbar {
 .header .menu__link {
     text-decoration: none;
 }
+.checklist__item_p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-left: 2px solid #07819b;
+    padding-left: 22px;
+    margin-left: 12px;
+}
+.fotoFooter{
+    display: flex;
+    max-width: 300px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media (min-width: 1024px){
+    .desctopImg{
+        display: flex;
+        width: 100%;
+        max-width: 1150px;
+        margin: 20px auto;
+    }
+    .phoneImg{
+        display: none !important;
+    }
+    .fotoFooter{
+        display: none;
+    }
+}
 
 @media (max-width: 1024px) {
     .header .logo {
@@ -696,12 +725,22 @@ body.admin-bar .topbar {
         .hero-media__content h1{
             max-width: 100% !important;
         }
+        .desctopImg{
+            display: none;
+        }
 }
 
 @media (max-width: 640px) {
     .header {
         padding-top: 15px;
     }
+}
+
+.phoneImg{
+   width: 90%;
+   display: block;
+   margin: 20px auto;
+   max-width: 500px;
 }
 
 @media (max-width: 360px) {
