@@ -689,6 +689,9 @@ body.admin-bar .topbar {
     .header .logo {
         height: 40px;
     }
+        .logoText{
+            font-size: 25px !important;
+        }
 }
 
 @media (max-width: 640px) {
@@ -715,6 +718,7 @@ body.admin-bar .topbar {
     overflow: hidden;
     background-image: url(../images/fonMain.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .hero-media .wrapper {
