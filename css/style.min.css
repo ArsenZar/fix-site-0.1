@@ -713,7 +713,7 @@ body.admin-bar .topbar {
     margin-top: -72px;
     position: relative;
     overflow: hidden;
-    background-image: url("/images/fonMain.jpg");
+    background-image: url(../images/fonMain.jpg);
     background-size: cover;
 }
 
