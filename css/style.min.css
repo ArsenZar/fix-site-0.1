@@ -494,8 +494,11 @@ h6 {
     height: 60px;
     width: 60px;
     min-width: 60px;
-    border-radius: 50%;
+    border-radius: 20%;
     overflow: hidden;
+}
+.socials__link:nth-child(2){
+    transform: scale(1.17);
 }
 
 .socials__link img {
@@ -509,7 +512,7 @@ h6 {
     row-gap: 10px;
 }
 
-.checklist__item {
+.checklist__item, .checklist__item_main {
     display: flex;
     align-items: flex-start;
     text-align: left;
@@ -517,6 +520,11 @@ h6 {
     -moz-column-gap: 10px;
     column-gap: 10px;
     font-size: 18px;
+}
+.checklist__item_main{
+    text-align: center;
+    margin-top: 5px;
+    max-width: 300px;
 }
 
 .checklist__item:before {
