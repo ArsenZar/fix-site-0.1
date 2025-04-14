@@ -692,6 +692,10 @@ body.admin-bar .topbar {
         .logoText{
             font-size: 25px !important;
         }
+        .hero-media__content .h1,
+        .hero-media__content h1{
+            max-width: 100% !important;
+        }
 }
 
 @media (max-width: 640px) {
